@@ -1,0 +1,72 @@
+/* .red{
+    color:red;
+    font-size: 42px;
+} */
+
+body{
+    background-color: rgb(171, 209, 113) ;
+}
+.nav-bar{
+    display: flex;
+    flex-direction:row; /* used to set the main axis */
+    justify-content: space-around; /* used to set arrangement of elements on main axis */
+    align-items: center;
+    height: 10vh;
+}
+/* .nav-list{
+    display: flex;
+    flex-direction: column;
+} */
+
+.nav-bar  a{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+.nav-list a{
+    margin-right: 10px;
+}
+.rest-of-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    border: 1px solid black;
+}
+
+
+.left, .right{
+    width: 50%;
+   border: 1px solid black;
+    text-align: center;
+}
+.left{
+    padding-left: 10%;
+    text-align: left;
+}
+.left button{
+    background-color: rgb(101, 101, 172);
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right input{
+    width: 50%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.right select, .right button{
+    width: 50%;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 3px 5px;
+}
+
