@@ -13,18 +13,27 @@ body{
     align-items: center;
     height: 10vh;
 }
-/* .nav-list{
+.nav-list{
     display: flex;
-    flex-direction: column;
-} */
+    flex-direction: row;
+    align-items: center;
+}
 
 .nav-bar  a{
-    font-size: 28px;
+    font-size: 23px;
     color: white;
     text-decoration: none;
 }
 .nav-list a{
     margin-right: 10px;
+}
+.nav-bar button{
+    min-width: 28%;
+    font-size: 23px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 .rest-of-page{
     display: flex;
@@ -32,13 +41,13 @@ body{
     align-items: center;
     width: 100vw;
     height: 85vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 .left, .right{
-    width: 50%;
-   border: 1px solid black;
+    width: 40%;
+   /* border: 1px solid black; */
     text-align: center;
 }
 .left{
@@ -52,21 +61,41 @@ body{
     height: 30px;
     border-radius: 10px;
     border:none;
+    cursor: pointer;
 }
 .right{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    padding: 5% 0;
 }
 .right input{
     width: 50%;
     margin-bottom: 10px;
     height: 30px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 10px;
+    border:none;
+    padding: 2px 5px;
+}
+.right select{
+    background-color: rgb(238, 234, 234);
+    border-radius: 10px;
+    border:none;
+    padding: 2px 5px;
 }
 .right select, .right button{
     width: 50%;
     margin-bottom: 10px;
     height: 30px;
     padding: 3px 5px;
+}
+.right button{
+    border-radius: 10px;
+    background-color: rgb(105, 105, 182);
+    color:white;
+    border:none;
+    cursor: pointer;
 }
 
